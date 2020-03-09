@@ -22,13 +22,16 @@ namespace C_sharp_exercises
         {
             //program 1
             showProgramNumb();
+            Console.WriteLine("This program prints a name");
             Console.WriteLine("Hello: " + "Vedran Zelen");
             //program 2
             showProgramNumb();
-            Console.WriteLine(2 + 3);
+            Console.WriteLine("this program tells what 2+3 is");
+            Console.WriteLine("2 + 3 = " + 2 + 3);
             //program 3
             showProgramNumb();
-            Console.WriteLine(3 / 3);
+            Console.WriteLine("this program divides 3 with 3");
+            Console.WriteLine("3 / 3 = " + 3 / 3);
             //program 4
             showProgramNumb();
             programFour();
@@ -47,13 +50,17 @@ namespace C_sharp_exercises
             //program 9
             showProgramNumb();
             programNine();
+            //program 10
             showProgramNumb();
             programTen();
+            //program 11
             showProgramNumb();
             programEleven();
+            //program 12
             showProgramNumb();
             programTwelve();
-        }
+
+        } 
         void programSixteen()
         {
             switchChar("Jackson");
